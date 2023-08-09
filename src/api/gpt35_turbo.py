@@ -148,7 +148,7 @@ def createListOfQuesTionsFromTable(text):
     return json.loads(response.text)["choices"][0]["message"]["content"]
 
 
-openai.api_key = "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"
+openai.api_key = "Put your own key"
 question_generator_tokens = 80
 answer_generator_tokens = 700
 messages = [
